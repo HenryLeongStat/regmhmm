@@ -1,15 +1,15 @@
 #' @title Print Outputs from a Hidden Markov Model (HMM)
-#'
+#' @aliases print.HMM
 #' @description
 #' Display detailed summary outputs and relevant information derived from a Hidden Markov Model (HMM) object. This includes state-specific parameters, transition probabilities, log-likelihood, and other essential metrics, providing an overview of the fitted model.
-#'
 #' @param x an object used to select a method.
 #' @param ... further arguments passed to or from other methods.
-#'
 #' @returns
 #' Return a invisible copy of "HMM" object
-#' 
 #' @method print HMM
+#' @export
+#' @rawNamespace export(print.HMM)
+#' @family print
 #' @examples
 #' \donttest{
 #' # Example usage of the function
@@ -40,9 +40,9 @@
 #' print(HMM_fit)
 #' }
 #' 
-#' @export
 print.HMM <- function(x, ...) {
-  UseMethod("print")
+  HMM <- x
+  # UseMethod("print")
   trans_mat <- HMM$A_hat
   emiss_mat <- HMM$B_hat
   init_vec <- as.numeric(HMM$delta_hat)

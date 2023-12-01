@@ -32,7 +32,7 @@ use_package('glmnetUtils')
 use_package('stats')
 use_package('Rcpp')
 use_package('MASS')
-# use_package('igraph')
+use_package('igraph')
 
 # use_git()
 usethis::use_build_ignore(c("developping_R", "development", "test", "tests"))
