@@ -62,5 +62,5 @@ devtools::document()
 devtools::check()
 
 devtools::build()
-# devtools::install()
+#devtools::install()
 

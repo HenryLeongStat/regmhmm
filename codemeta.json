@@ -7,13 +7,19 @@
   "codeRepository": "https://github.com/HenryLeongStat/regmhmm",
   "issueTracker": "https://github.com/HenryLeongStat/regmhmm/issues",
   "license": "https://spdx.org/licenses/GPL-3.0",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "programmingLanguage": {
     "@type": "ComputerLanguage",
     "name": "R",
     "url": "https://r-project.org"
   },
-  "runtimePlatform": "R version 4.2.3 (2023-03-15)",
+  "runtimePlatform": "R version 4.3.2 (2023-10-31)",
+  "provider": {
+    "@id": "https://cran.r-project.org",
+    "@type": "Organization",
+    "name": "Comprehensive R Archive Network (CRAN)",
+    "url": "https://cran.r-project.org"
+  },
   "author": [
     {
       "@type": "Person",
@@ -151,6 +157,6 @@
     },
     "SystemRequirements": null
   },
-  "fileSize": "10343.574KB",
+  "fileSize": "10343.573KB",
   "readme": "https://github.com/HenryLeongStat/regmhmm/blob/main/README.md"
 }
